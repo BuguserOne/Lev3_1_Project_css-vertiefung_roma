@@ -1,0 +1,149 @@
+/*          GLOBAL           */
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* Font: Santio bold, Roboto, Tangerine */
+
+
+/* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+
+@font-face {
+    font-family: "santio";
+    src: url(../fonts/Santio\ regular.ttf);
+}
+
+@font-face {
+    font-family: "santio_bold";
+    src: url(../fonts/Santio\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto_bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "tangerine";
+    src: url(../fonts/Tangerine_Regular.ttf);
+}
+
+@font-face {
+    font-family: "tangerine_bold";
+    src: url(../fonts/Tangerine_Bold.ttf);
+}
+
+
+/*          BODY             */
+
+
+body {
+    background-image: url(../img/cleo-topper.jpg);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*          SECTION 1            */
+
+.section1 {
+    height: 100vh;
+}
+
+.section1 header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 2rem;
+}
+
+.section1 header p {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.section1 article p:first-of-type {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    margin: 26vh 10vw;
+    width: 300px;
+}
+
+.section1 article p:last-of-type {
+    color: yellow;
+    font-size: 2rem;
+    position: absolute;
+    margin: 62vh 10vw;
+}
+
+/*          SECTION 2            */
+
+.section2 {
+    height: 100vh;
+    background-color: rgba(190, 5, 5, 0.2);
+    color: #6bc1a3;
+    font-size: 2rem;
+    margin: 20vh 0 0 10vw;
+    width: 700px;
+}
+
+/*          SECTION 3            */
+
+.section3 {
+    height: 50vh;
+    background-color: rgba(5, 39, 190, 0.2);
+    margin: 0 0 0 10vw;
+}
+
+/*          SECTION 4            */
+
+.section4 {
+    height: 50vh;
+    background-color: rgba(5, 190, 48, 0.2);
+    margin: 0 0 0 10vw;
+}
+
+/*          SECTION 5            */
+
+.section5 {
+    height: 50vh;
+    background-color: rgba(190, 187, 5, 0.2);
+    margin: 0 0 0 10vw;
+}
+
+/*          SECTION 6            */
+
+.section6 {
+    height: 50vh;
+    background-color: rgba(5, 162, 190, 0.2);
+}
+
+/*          SECTION 7            */
+
+.section7 {
+    background-image: url(../img/kid.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*          SECTION 8            */
+
+.section8 {
+    background-color: black;
+    color: white;
+    height: 160vh;
+} 
