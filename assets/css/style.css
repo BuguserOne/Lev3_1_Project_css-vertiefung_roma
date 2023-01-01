@@ -68,9 +68,16 @@ body {
     margin: 1rem 2rem;
 }
 
-.section1 header p {
+.section1 header img {
+    margin: 0 1vw 0 0;
+}
+
+
+.section1 header a {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-decoration: underline #e7bc0e;
+    font-family: "roboto_bold";
 }
 
 .section1 article p:first-of-type {
@@ -78,62 +85,132 @@ body {
     font-size: 3rem;
     position: absolute;
     margin: 26vh 10vw;
-    width: 300px;
+    width: 212px;
+    font-family: "santio_bold";
 }
 
 .section1 article p:last-of-type {
-    color: yellow;
-    font-size: 2rem;
+    color: #e7bc0e;
+    font-size: 2.5rem;
     position: absolute;
-    margin: 62vh 10vw;
+    margin: 56vh 10vw;
+    font-family: "tangerine";
 }
 
 /*          SECTION 2            */
 
 .section2 {
     height: 100vh;
-    background-color: rgba(190, 5, 5, 0.2);
     color: #6bc1a3;
     font-size: 2rem;
     margin: 20vh 0 0 10vw;
-    width: 700px;
+    width: 900px;
+    font-family: "santio_bold";
+    line-height: 2;
+}
+
+.section2 span {
+    background-color: black;
+    color: white;
 }
 
 /*          SECTION 3            */
 
 .section3 {
     height: 50vh;
-    background-color: rgba(5, 39, 190, 0.2);
     margin: 0 0 0 10vw;
+}
+
+.section3 article p:first-of-type {
+    font-size: 8rem;
+    color: #e7bc0e;
+    font-family: "santio_bold";
+}
+
+.section3 article p:last-of-type {
+    font-family: "santio_bold";
+    color: #e7bc0e;
+    font-size: 2rem;
+}
+
+.section3 span {
+    background-color: black;
+    color: white;
 }
 
 /*          SECTION 4            */
 
 .section4 {
     height: 50vh;
-    background-color: rgba(5, 190, 48, 0.2);
     margin: 0 0 0 10vw;
 }
+
+.section4 article p:first-of-type {
+    font-size: 2rem;
+    color: #cb91b6;
+    font-family: "santio_bold";
+}
+
+.section4 article p:last-of-type {
+    font-family: "santio_bold";
+    color: #cb91b6;
+    font-size: 8rem;
+}
+
+.section4 span {
+    background-color: black;
+    color: white;
+}
+
 
 /*          SECTION 5            */
 
+
 .section5 {
     height: 50vh;
-    background-color: rgba(190, 187, 5, 0.2);
     margin: 0 0 0 10vw;
 }
+
+.section5 article p:first-of-type {
+    font-size: 8rem;
+    color: #6bc1a3;
+    font-family: "santio_bold";
+}
+
+.section5 article p:last-of-type {
+    font-family: "santio_bold";
+    color: #6bc1a3;
+    font-size: 2rem;
+}
+
+.section5 span {
+    background-color: black;
+    color: white;
+}
+
 
 /*          SECTION 6            */
 
 .section6 {
     height: 50vh;
-    background-color: rgba(5, 162, 190, 0.2);
+    margin: 20vh 0 0 20vw;
+    font-family: "santio_bold";
+    font-size: 2rem;
+    width: 800px;
+    line-height: 2;
+    color: #7eb8e1;
+}
+
+.section6 span {
+    background-color: black;
+    color: white;
 }
 
 /*          SECTION 7            */
 
 .section7 {
-    background-image: url(../img/kid.png);
+    background-color: #efefef;
+    background-image: url(../img/kid.png), url(../img/see.png);
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -145,5 +222,34 @@ body {
 .section8 {
     background-color: black;
     color: white;
-    height: 160vh;
-} 
+    height: 140vh;
+}
+
+.section8 article p {
+    font-family: "santio_bold";
+    font-size: 5rem;
+    margin: 0 0 10vh 8vw;
+    width: 700px;
+    padding: 40vh 0 0 0;
+}
+
+.section8 article a {
+    border: 1px solid white;
+    padding: 16px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 0 0 8vw;
+    font-family: "roboto";
+}
+
+.section8 footer {
+    font-family: "roboto";
+    display: flex;
+    justify-content: center;
+    margin: 44vh;
+}
+
+.section8 footer span {
+    color: #6bc1a3;
+}
